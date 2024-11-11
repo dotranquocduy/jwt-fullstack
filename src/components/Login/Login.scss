@@ -1,0 +1,37 @@
+.login-container {
+  background-color: #f2f4f7;
+  min-height: 100vh;
+  padding-top: 40px;
+  .content-logo {
+    text-align: center;
+    .image-logo {
+      height: 100px;
+      width: 100px;
+    }
+  }
+
+  .content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .brand {
+      font-size: 45px;
+      text-transform: uppercase;
+      color: #0866ff;
+      font-weight: 600;
+    }
+    .detail {
+      font-size: 30px;
+      font-weight: 600;
+    }
+  }
+
+  .content-right {
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: #fff;
+    .forgot-password {
+      text-decoration: none;
+    }
+  }
+}
